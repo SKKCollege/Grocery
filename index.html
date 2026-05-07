@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="lv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#0f1117">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Cenas">
+<meta name="description" content="Salīdzini pārtikas cenas Latvijas veikalos">
+<link rel="manifest" href="manifest.json">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<title>Cenu Salīdzinātājs</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=DM+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0f1117;
+  --bg2: #161920;
+  --bg3: #1d2029;
+  --bg4: #252833;
+  --border: rgba(255,255,255,0.07);
+  --border2: rgba(255,255,255,0.12);
+  --text: #f0f0f0;
+  --text2: #9a9fb0;
+  --text3: #5a5f70;
+  --green: #1a9e5c;
+  --green-light: #22c76e;
+  --green-bg: rgba(26,158,92,0.12);
+  --red: #e84040;
+  --amber: #f0a020;
+  --blue: #3b82f6;
+  --rimi: #e84040;
+  --maxima: #3b82f6;
+  --lidl: #f0a020;
+  --elvi: #1a9e5c;
+  --top: #a855f7;
+  --mego: #ec4899;
+  --r: 14px;
+  --r-sm: 10px;
+  --safe-top: env(safe-area-inset-top, 0px);
+  --safe-bottom: env(safe-area-inset-bottom, 0px);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; -webkit-tap-highlight-color: transparent; }
+html, body { height: 100%; background: var(--bg); color: var(--text); font-family: 'DM Sans', sans-serif; overflow: hidden; }
+
+/* ── App shell ── */
+#app { display: flex; flex-direction: column; height: 100vh; height: 100dvh; }
+
+/* ── Header ── */
+#header {
+  padding: calc(var(--safe-top) + 16px) 20px 0;
+  background: var(--bg);
+  flex-shrink: 0;
+}
+.header-row { display: flex; align-items: center; justify-content: space-between; margin-bottom: 14px; }
+.app-title { font-size: 22px; font-weight: 600; letter-spacing: -0.5px; }
+.app-title span { color: var(--green-light); }
+.last-update { font-size: 11px; color: var(--text3); font-family: 'DM Mono', monospace; }
+
+/* ── Search bar ── */
+.search-wrap { position: relative; margin-bottom: 12px; }
+.search-wrap svg { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); opacity: 0.35; pointer-events: none; }
+#search { width: 100%; background: var(--bg3); border: 1px solid var(--border); border-radius: var(--r); padding: 11px 14px 11px 42px; font-size: 15px; color: var(--text); font-family: 'DM Sans', sans-serif; outline: none; transition: border-color .2s; }
+#search:focus { border-color: var(--border2); }
+#search::placeholder { color: var(--text3); }
+
+/* ── Category pills ── */
+.cats-scroll { display: flex; gap: 7px; overflow-x: auto; padding-bottom: 12px; scrollbar-width: none; }
+.cats-scroll::-webkit-scrollbar { display: none; }
+.cat { flex-shrink: 0; padding: 6px 14px; border-radius: 20px; font-size: 13px; font-weight: 500; border: 1px solid var(--border); color: var(--text2); background: transparent; cursor: pointer; transition: all .15s; }
+.cat.on { background: var(--green-bg); border-color: var(--green); color: var(--green-light); }
+
+/* ── Store filter row ── */
+.stores-row { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 14px; scrollbar-width: none; }
+.stores-row::-webkit-scrollbar { display: none; }
+.store-chip { flex-shrink: 0; display: flex; align-items: center; gap: 5px; padding: 5px 11px; border-radius: 20px; font-size: 12px; font-weight: 500; border: 1px solid var(--border); color: var(--text3); background: transparent; cursor: pointer; transition: all .15s; }
+.store-chip .dot { width: 7px; height: 7px; border-radius: 50%; }
+.store-chip.on { border-color: var(--border2); color: var(--text); background: var(--bg3); }
+
+/* ── Summary strip ── */
+.summary { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; padding: 0 20px 12px; flex-shrink: 0; }
+.stat { background: var(--bg3); border-radius: var(--r-sm); padding: 10px 12px; border: 1px solid var(--border); }
+.stat-label { font-size: 10px; color: var(--text3); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.stat-val { font-size: 18px; font-weight: 600; color: var(--text); }
+.stat-val.green { color: var(--green-light); }
+
+/* ── Product list ── */
+#list { flex: 1; overflow-y: auto; padding: 0 16px calc(var(--safe-bottom) + 80px); scrollbar-width: none; }
+#list::-webkit-scrollbar { display: none; }
+
+.p-card {
+  background: var(--bg2);
+  border: 1px solid var(--border);
+  border-radius: var(--r);
+  margin-bottom: 10px;
+  overflow: hidden;
+  transition: border-color .15s;
+}
+.p-card:active { border-color: var(--border2); }
+
+.p-card-head { padding: 14px 16px 10px; display: flex; justify-content: space-between; align-items: flex-start; }
+.p-name { font-size: 15px; font-weight: 500; color: var(--text); }
+.p-meta { font-size: 12px; color: var(--text3); margin-top: 2px; }
+.save-badge { background: var(--green-bg); color: var(--green-light); font-size: 11px; font-weight: 600; padding: 3px 9px; border-radius: 20px; border: 1px solid rgba(26,158,92,0.25); white-space: nowrap; flex-shrink: 0; font-family: 'DM Mono', monospace; }
+
+.p-prices { padding: 0 16px 12px; display: flex; flex-direction: column; gap: 5px; }
+.price-row { display: flex; align-items: center; gap: 8px; }
+.price-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+.price-store { font-size: 12px; color: var(--text2); width: 52px; flex-shrink: 0; }
+.price-store.best { color: var(--text); font-weight: 500; }
+.price-bar-wrap { flex: 1; height: 4px; background: var(--bg4); border-radius: 2px; overflow: hidden; }
+.price-bar { height: 100%; border-radius: 2px; }
+.price-amt { font-size: 13px; font-weight: 500; color: var(--text2); min-width: 46px; text-align: right; font-family: 'DM Mono', monospace; }
+.price-amt.best { color: var(--green-light); }
+
+/* ── Bottom nav ── */
+#bottom-nav {
+  position: fixed; bottom: 0; left: 0; right: 0;
+  padding: 10px 20px calc(var(--safe-bottom) + 10px);
+  background: rgba(15,17,23,0.92);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border-top: 1px solid var(--border);
+  display: flex; gap: 10px;
+}
+.nav-btn { flex: 1; padding: 12px; border-radius: var(--r-sm); font-size: 14px; font-weight: 500; font-family: 'DM Sans', sans-serif; border: 1px solid var(--border); background: var(--bg3); color: var(--text2); cursor: pointer; transition: all .15s; }
+.nav-btn.primary { background: var(--green); border-color: var(--green); color: white; }
+.nav-btn:active { opacity: 0.75; transform: scale(0.98); }
+
+/* ── Empty / loading states ── */
+.empty { text-align: center; padding: 60px 20px; color: var(--text3); }
+.empty-icon { font-size: 40px; margin-bottom: 16px; opacity: 0.4; }
+.empty h3 { font-size: 17px; color: var(--text2); margin-bottom: 8px; }
+.empty p { font-size: 14px; line-height: 1.6; }
+
+.skeleton { background: linear-gradient(90deg, var(--bg3) 25%, var(--bg4) 50%, var(--bg3) 75%); background-size: 200% 100%; animation: shimmer 1.4s infinite; border-radius: var(--r-sm); }
+@keyframes shimmer { 0%{background-position:200% 0} 100%{background-position:-200% 0} }
+
+/* ── Offline banner ── */
+#offline-banner { display: none; background: var(--amber); color: #000; font-size: 13px; font-weight: 500; text-align: center; padding: 8px; }
+#offline-banner.show { display: block; }
+
+/* ── Install prompt ── */
+#install-bar { display: none; position: fixed; top: calc(var(--safe-top) + 60px); left: 12px; right: 12px; background: var(--bg3); border: 1px solid var(--border2); border-radius: var(--r); padding: 12px 16px; z-index: 100; align-items: center; gap: 12px; }
+#install-bar.show { display: flex; }
+#install-bar p { flex: 1; font-size: 13px; color: var(--text2); }
+#install-bar button { padding: 7px 14px; border-radius: 8px; font-size: 13px; font-weight: 500; font-family: 'DM Sans', sans-serif; cursor: pointer; }
+.install-yes { background: var(--green); border: none; color: white; }
+.install-no { background: transparent; border: 1px solid var(--border); color: var(--text3); }
+
+/* ── Animations ── */
+.p-card { animation: fadeup .2s ease both; }
+@keyframes fadeup { from { opacity:0; transform:translateY(8px); } to { opacity:1; transform:none; } }
+</style>
+</head>
+<body>
+
+<div id="offline-banner">Offline — rādām saglabātās cenas</div>
+<div id="install-bar">
+  <p>Pievienot sākumekrānam kā lietotni?</p>
+  <button class="install-yes" id="install-yes">Jā</button>
+  <button class="install-no" id="install-no">Nē</button>
+</div>
+
+<div id="app">
+  <div id="header">
+    <div class="header-row">
+      <div class="app-title">cenu <span>salīdzinātājs</span></div>
+      <div class="last-update" id="last-update">—</div>
+    </div>
+    <div class="search-wrap">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="search" id="search" placeholder="Meklēt produktu..." oninput="filter()" autocomplete="off" autocorrect="off" spellcheck="false">
+    </div>
+    <div class="cats-scroll" id="cats"></div>
+    <div class="stores-row" id="stores"></div>
+  </div>
+
+  <div class="summary" id="summary" style="display:none">
+    <div class="stat"><div class="stat-label">Produkti</div><div class="stat-val" id="s-count">0</div></div>
+    <div class="stat"><div class="stat-label">Vid. ietaupījums</div><div class="stat-val green" id="s-save">—</div></div>
+    <div class="stat"><div class="stat-label">Lētākais</div><div class="stat-val" id="s-best">—</div></div>
+  </div>
+
+  <div id="list">
+    <div class="empty">
+      <div class="empty-icon">🛒</div>
+      <h3>Nav cenu datu</h3>
+      <p>Nospied "Atjaunot cenas", lai ielādētu jaunākās cenas no Latvijas veikaliem.</p>
+    </div>
+  </div>
+</div>
+
+<div id="bottom-nav">
+  <button class="nav-btn" onclick="showBasket()">🧺 Grozs</button>
+  <button class="nav-btn primary" id="refresh-btn" onclick="requestRefresh()">Atjaunot cenas</button>
+  <button class="nav-btn" onclick="showInfo()">ℹ Info</button>
+</div>
+
+<script>
+const STORES = ['rimi','maxima','lidl','elvi','top','mego'];
+const SCOL = {rimi:'#e84040',maxima:'#3b82f6',lidl:'#f0a020',elvi:'#1a9e5c',top:'#a855f7',mego:'#ec4899'};
+const CATS = ['visi','piens','maize','gaļa','dārzeņi','augļi','dzērieni','saimniecība'];
+const CAT_MAP = {visi:'all',piens:'dairy',maize:'bread',gaļa:'meat',dārzeņi:'vegetables',augļi:'fruit',dzērieni:'drinks',saimniecība:'household'};
+const STORAGE_KEY = 'lv_grocery_pwa_v1';
+
+let PRICES = [];
+
+async function loadPrices() {
+  try {
+    const url = 'https://raw.githubusercontent.com/SKKCollege/grocery/main/prices.json?nocache=' + Date.now();
+    const r = await fetch(url, {cache: 'no-store'});
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    PRICES = await r.json();
+    document.getElementById('last-update').textContent = new Date().toLocaleDateString('lv-LV');
+    filter();
+    calcSummary();
+  } catch(e) {
+    console.error('Price load failed:', e);
+  }
+}
+
+let products = [...PRICES];
+let activeStores = new Set(STORES);
+let activeCat = 'visi';
+let deferredInstall = null;
+
+async function init() {
+  buildCats();
+  buildStores();
+  try {
+    const r = await window.storage?.get(STORAGE_KEY);
+    if (r?.value) {
+      const d = JSON.parse(r.value);
+      if (d.products) products = d.products;
+      if (d.date) document.getElementById('last-update').textContent = d.date;
+    } else {
+      document.getElementById('last-update').textContent = 'Maijs 2026';
+    }
+  } catch(e) {
+    document.getElementById('last-update').textContent = 'Maijs 2026';
+  }
+  filter();
+  calcSummary();
+}
+
+function buildCats() {
+  document.getElementById('cats').innerHTML = CATS.map(c =>
+    `<button class="cat${c==='visi'?' on':''}" onclick="setCat('${c}')">${c}</button>`
+  ).join('');
+}
+
+function buildStores() {
+  document.getElementById('stores').innerHTML = STORES.map(s =>
+    `<button class="store-chip on" id="chip-${s}" onclick="toggleStore('${s}')">
+      <span class="dot" style="background:${SCOL[s]}"></span>${s}
+    </button>`
+  ).join('');
+}
+
+function setCat(c) {
+  activeCat = c;
+  document.querySelectorAll('.cat').forEach(b => b.classList.toggle('on', b.textContent===c));
+  filter();
+}
+
+function toggleStore(s) {
+  if (activeStores.has(s)) { if(activeStores.size>1) activeStores.delete(s); }
+  else activeStores.add(s);
+  document.getElementById('chip-'+s).classList.toggle('on', activeStores.has(s));
+  filter();
+}
+
+function filter() {
+  const q = document.getElementById('search').value.toLowerCase();
+  const catEn = CAT_MAP[activeCat] || 'all';
+  const list = products.filter(p => {
+    if (q && !p.name.toLowerCase().includes(q)) return false;
+    if (catEn !== 'all' && p.category !== catEn && p.category !== activeCat) return false;
+    return true;
+  });
+  render(list);
+}
+
+function render(list) {
+  const el = document.getElementById('list');
+  if (!list.length) {
+    el.innerHTML = `<div class="empty"><div class="empty-icon">🔍</div><h3>Nav rezultātu</h3><p>Mēģini citu meklēšanas vārdu.</p></div>`;
+    return;
+  }
+  el.innerHTML = list.map((p, i) => {
+    const pp = p.prices.filter(x => activeStores.has(x.store)).sort((a,b)=>a.price-b.price);
+    if (!pp.length) return '';
+    const best = pp[0].price, max = pp[pp.length-1].price;
+    const saving = (max-best).toFixed(2);
+    const rows = pp.map(pr => {
+      const isBest = pr.price === best;
+      const w = max>0 ? Math.round((pr.price/max)*100) : 0;
+      return `<div class="price-row">
+        <span class="price-dot" style="background:${SCOL[pr.store]||'#888'}"></span>
+        <span class="price-store${isBest?' best':''}">${pr.store}${isBest?' ★':''}</span>
+        <div class="price-bar-wrap"><div class="price-bar" style="width:${w}%;background:${isBest?'var(--green-light)':SCOL[pr.store]+'66'}"></div></div>
+        <span class="price-amt${isBest?' best':''}">€${pr.price.toFixed(2)}</span>
+      </div>`;
+    }).join('');
+    return `<div class="p-card" style="animation-delay:${i*0.03}s">
+      <div class="p-card-head">
+        <div><div class="p-name">${p.name}</div><div class="p-meta">${p.unit} · ${p.category}</div></div>
+        ${parseFloat(saving)>0.01?`<span class="save-badge">-€${saving}</span>`:''}
+      </div>
+      <div class="p-prices">${rows}</div>
+    </div>`;
+  }).filter(Boolean).join('');
+}
+
+function calcSummary() {
+  if (!products.length) return;
+  document.getElementById('summary').style.display = 'grid';
+  document.getElementById('s-count').textContent = products.length;
+  const savings = products.map(p => {
+    if (!p.prices||p.prices.length<2) return 0;
+    const pp = p.prices.map(x=>x.price);
+    return Math.max(...pp)-Math.min(...pp);
+  });
+  const avg = savings.reduce((a,b)=>a+b,0)/savings.length;
+  document.getElementById('s-save').textContent = '€'+avg.toFixed(2);
+  const counts = {};
+  products.forEach(p => {
+    if (p.prices?.length) { const b=p.prices.reduce((a,x)=>a.price<x.price?a:x).store; counts[b]=(counts[b]||0)+1; }
+  });
+  const top = Object.entries(counts).sort((a,b)=>b[1]-a[1])[0];
+  document.getElementById('s-best').textContent = top?top[0]:'—';
+}
+
+function requestRefresh() {
+  const btn = document.getElementById('refresh-btn');
+  btn.textContent = '⏳ Atjaunina...';
+  btn.disabled = true;
+  setTimeout(() => {
+    btn.textContent = 'Atjaunot cenas';
+    btn.disabled = false;
+    alert('Automātiska atjaunināšana darbosies, kad Python skrāpētāji būs pievienoti. Pagaidām cenas tiek atjauninātas manuāli.');
+  }, 1200);
+}
+
+function showBasket() { alert('Grozu funkcija tiks pievienota drīzumā!'); }
+function showInfo() {
+  alert('Cenu Salīdzinātājs v1.0\n\nSalīdzina pārtikas cenas:\nRimi · Maxima · Lidl · Elvi · Top · Mego\n\nDati: Maijs 2026\nIzstrādātājs: Turiba University projekt');
+}
+
+// Offline detection
+window.addEventListener('online',  () => document.getElementById('offline-banner').classList.remove('show'));
+window.addEventListener('offline', () => document.getElementById('offline-banner').classList.add('show'));
+
+// PWA install prompt
+window.addEventListener('beforeinstallprompt', e => {
+  e.preventDefault();
+  deferredInstall = e;
+  document.getElementById('install-bar').classList.add('show');
+});
+document.getElementById('install-yes').onclick = async () => {
+  document.getElementById('install-bar').classList.remove('show');
+  if (deferredInstall) { deferredInstall.prompt(); await deferredInstall.userChoice; deferredInstall = null; }
+};
+document.getElementById('install-no').onclick = () => {
+  document.getElementById('install-bar').classList.remove('show');
+};
+
+// Service worker registration
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/sw.js').catch(() => {});
+}
+
+init();
+loadPrices();
+</script>
+</body>
+</html>
