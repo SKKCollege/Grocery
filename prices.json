@@ -55,17 +55,6 @@
     ]
   },
   {
-    "name": "Piens Tere 2,5% 1,5l",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.79
-      }
-    ]
-  },
-  {
     "name": "Olas Balticovo brīv.vis.A/LM Nr.1 10gab.",
     "unit": "",
     "category": "dairy",
@@ -73,6 +62,17 @@
       {
         "store": "rimi",
         "price": 4.59
+      }
+    ]
+  },
+  {
+    "name": "Piens Tere 2,5% 1,5l",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.79
       }
     ]
   },
@@ -154,13 +154,13 @@
     ]
   },
   {
-    "name": "Skābais krējums Smiltene 20% 400g",
+    "name": "Sviests Rimi 82% tauku 200g",
     "unit": "",
     "category": "dairy",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.99
+        "price": 2.79
       }
     ]
   },
@@ -418,6 +418,17 @@
     ]
   },
   {
+    "name": "Konservēti zaļie zirnīši Rimi 200g/140g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.79
+      }
+    ]
+  },
+  {
     "name": "Sviesta pupiņas Rimi 400g/250g",
     "unit": "",
     "category": "meat",
@@ -436,17 +447,6 @@
       {
         "store": "rimi",
         "price": 5.36
-      }
-    ]
-  },
-  {
-    "name": "Konservēti zaļie zirnīši Rimi 200g/140g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.79
       }
     ]
   },
@@ -484,13 +484,13 @@
     ]
   },
   {
-    "name": "Auzu pārslas Dobele ātri vāramās 500g",
-    "unit": "",
+    "name": "Makaroni Dobele Nr.7 Spaghetti 500g",
+    "unit": "1,78 €/kg",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.15
+        "price": 1.78
       }
     ]
   },
@@ -605,6 +605,17 @@
     ]
   },
   {
+    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.99
+      }
+    ]
+  },
+  {
     "name": "Aizdedzinātāji PROflame EXPERT 72pc",
     "unit": "0,04 €/gab.",
     "category": "vegetables",
@@ -638,18 +649,7 @@
     ]
   },
   {
-    "name": "Aizdedzinātāji PROflame EXPERT 32gb",
-    "unit": "0,89 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.89
-      }
-    ]
-  },
-  {
-    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
+    "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
     "unit": "",
     "category": "vegetables",
     "prices": [
@@ -726,13 +726,13 @@
     ]
   },
   {
-    "name": "Burkāni Nantes 3 Kurzemes Sēklas",
-    "unit": "0,31 €/gab.",
+    "name": "Mēslojums AGRONOM Augšanas aktivators",
+    "unit": "0,49 €/gab.",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.31
+        "price": 0.49
       }
     ]
   },
@@ -744,17 +744,6 @@
       {
         "store": "rimi",
         "price": 0.31
-      }
-    ]
-  },
-  {
-    "name": "Mēslojums AGRONOM Augšanas aktivators",
-    "unit": "0,49 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.49
       }
     ]
   },
@@ -781,7 +770,29 @@
     ]
   },
   {
+    "name": "Sēklas AGRONOM Redīsi Cherry Belle",
+    "unit": "0,24 €/gab.",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.24
+      }
+    ]
+  },
+  {
     "name": "Salāti May King Kurzemes sēklas",
+    "unit": "0,31 €/gab.",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.31
+      }
+    ]
+  },
+  {
+    "name": "Pīpenes Robinsons Giants Kurzemes sēklas",
     "unit": "0,31 €/gab.",
     "category": "fruit",
     "prices": [
@@ -803,24 +814,13 @@
     ]
   },
   {
-    "name": "Augsne Juknevičiaus Kompostas 3,5l",
-    "unit": "",
+    "name": "Zirņi Ambrosia Kurzemes Sēklas",
+    "unit": "0,31 €/gab.",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 4.29
-      }
-    ]
-  },
-  {
-    "name": "Sēklas AGRONOM Redīsi Cherry Belle",
-    "unit": "0,24 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.24
+        "price": 0.31
       }
     ]
   },
@@ -858,17 +858,6 @@
     ]
   },
   {
-    "name": "Maltā cūkgaļa Rimi 500gr",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.19
-      }
-    ]
-  },
-  {
     "name": "Atlantijas laša fileja kg",
     "unit": "",
     "category": "drinks",
@@ -876,6 +865,17 @@
       {
         "store": "rimi",
         "price": 13.99
+      }
+    ]
+  },
+  {
+    "name": "Maltā cūkgaļa Rimi 500gr",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.19
       }
     ]
   },
@@ -891,17 +891,6 @@
     ]
   },
   {
-    "name": "Fileja tītara gaļas šķēlēs 105g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.79
-      }
-    ]
-  },
-  {
     "name": "Cāļa stilbi Ķekava A kategorija fasēti kg",
     "unit": "",
     "category": "drinks",
@@ -909,6 +898,17 @@
       {
         "store": "rimi",
         "price": 3.49
+      }
+    ]
+  },
+  {
+    "name": "Fileja tītara gaļas šķēlēs 105g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.79
       }
     ]
   },
@@ -924,17 +924,6 @@
     ]
   },
   {
-    "name": "Cāļa stilbi Rimi bez locītavas 500g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.29
-      }
-    ]
-  },
-  {
     "name": "Cīsiņi Rakveres 500g",
     "unit": "",
     "category": "drinks",
@@ -942,6 +931,17 @@
       {
         "store": "rimi",
         "price": 1.99
+      }
+    ]
+  },
+  {
+    "name": "Cāļa stilbi Rimi bez locītavas 500g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.29
       }
     ]
   },
