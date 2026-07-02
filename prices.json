@@ -88,17 +88,6 @@
     ]
   },
   {
-    "name": "Olas Balticovo brīv.vis.A/LM Nr.1 10gab.",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.79
-      }
-    ]
-  },
-  {
     "name": "Olas Rimi Iecavas kūtī dētas A/L No.2,10 gab.",
     "unit": "",
     "category": "dairy",
@@ -106,6 +95,17 @@
       {
         "store": "rimi",
         "price": 2.69
+      }
+    ]
+  },
+  {
+    "name": "Olas Balticovo brīv.vis.A/LM Nr.1 10gab.",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.79
       }
     ]
   },
@@ -209,17 +209,6 @@
     ]
   },
   {
-    "name": "Rudzu maize Ķelmēni 1/2 sagriezta 460g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.84
-      }
-    ]
-  },
-  {
     "name": "Kefīra maize Lielmaize 500g",
     "unit": "",
     "category": "bread",
@@ -227,6 +216,17 @@
       {
         "store": "rimi",
         "price": 1.45
+      }
+    ]
+  },
+  {
+    "name": "Rudzu maize Ķelmēni 1/2 sagriezta 460g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.84
       }
     ]
   },
@@ -253,17 +253,6 @@
     ]
   },
   {
-    "name": "Baltmaize Kungu sagriezta 400g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.89
-      }
-    ]
-  },
-  {
     "name": "Maize Latvijas graudu ar sēklām 500g",
     "unit": "",
     "category": "bread",
@@ -271,6 +260,17 @@
       {
         "store": "rimi",
         "price": 1.35
+      }
+    ]
+  },
+  {
+    "name": "Baltmaize Kungu sagriezta 400g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.89
       }
     ]
   },
@@ -319,7 +319,7 @@
     ]
   },
   {
-    "name": "Rudzu maize Rikas 6 gab. 330g",
+    "name": "Tostermaize Latvijas Tost Maize 500g",
     "unit": "",
     "category": "bread",
     "prices": [
@@ -363,6 +363,17 @@
     ]
   },
   {
+    "name": "Pupiņas Rimi sarkanās 400g/240g",
+    "unit": "3,29 €/kg",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.29
+      }
+    ]
+  },
+  {
     "name": "Konservēta saldā kukurūza Rimi 165g/140g",
     "unit": "",
     "category": "meat",
@@ -381,17 +392,6 @@
       {
         "store": "rimi",
         "price": 2.09
-      }
-    ]
-  },
-  {
-    "name": "Pupiņas Rimi sarkanās 400g/240g",
-    "unit": "3,29 €/kg",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.29
       }
     ]
   },
@@ -451,6 +451,17 @@
     ]
   },
   {
+    "name": "Cukurs Rimi 1kg",
+    "unit": "0,69 €/kg",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.69
+      }
+    ]
+  },
+  {
     "name": "Makaroni Dobele Nr.7 Spaghetti 500g",
     "unit": "",
     "category": "meat",
@@ -473,24 +484,13 @@
     ]
   },
   {
-    "name": "Cukurs Rimi 1kg",
-    "unit": "0,69 €/kg",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.69
-      }
-    ]
-  },
-  {
-    "name": "Makaroni Dobele Nr.183 Chiffari Lisci 500g",
+    "name": "Kviešu milti Ekstra 1kg",
     "unit": "",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.29
+        "price": 1.25
       }
     ]
   },
@@ -594,7 +594,7 @@
     ]
   },
   {
-    "name": "Briketes bbqgrill 2kg",
+    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
     "unit": "",
     "category": "vegetables",
     "prices": [
@@ -605,7 +605,7 @@
     ]
   },
   {
-    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
+    "name": "Briketes bbqgrill 2kg",
     "unit": "",
     "category": "vegetables",
     "prices": [
@@ -704,94 +704,6 @@
     ]
   },
   {
-    "name": "Sēklas AGRONOM Petūnijas balkona",
-    "unit": "0,18 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.18
-      }
-    ]
-  },
-  {
-    "name": "Brokoļu sēklas diedzēš.Kurzemes sēklas",
-    "unit": "0,60 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.6
-      }
-    ]
-  },
-  {
-    "name": "Sēklas AGRONOM Krūmu pupiņas Igołomska",
-    "unit": "0,15 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.15
-      }
-    ]
-  },
-  {
-    "name": "Sēklas AGRONOM Redīsi Cherry Belle",
-    "unit": "0,15 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.15
-      }
-    ]
-  },
-  {
-    "name": "Gurķi Victoria H Kurzemes Sēklas",
-    "unit": "0,19 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.19
-      }
-    ]
-  },
-  {
-    "name": "Lobēlijas Blue Kurzemes Sēklas",
-    "unit": "0,19 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.19
-      }
-    ]
-  },
-  {
-    "name": "Pīpenes Robinsons Giants Kurzemes sēklas",
-    "unit": "0,19 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.19
-      }
-    ]
-  },
-  {
-    "name": "Sēklas AGRONOM Dārza salāti Lollo Rossa",
-    "unit": "0,15 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.15
-      }
-    ]
-  },
-  {
     "name": "Augsne Juknevičiaus Kompostas 3,5l",
     "unit": "",
     "category": "fruit",
@@ -803,24 +715,112 @@
     ]
   },
   {
-    "name": "Sēklas AGRONOM Lielloku sīpoli Bajkal",
-    "unit": "0,18 €/gab.",
+    "name": "Augu barība VITO universāla 500ml",
+    "unit": "",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.18
+        "price": 5.99
       }
     ]
   },
   {
-    "name": "Redīsi Rudolf Kurzemes Sēklas",
-    "unit": "0,39 €/gab.",
+    "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
+    "unit": "",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.39
+        "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Augu barība orhidejām Vito 0.5l",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 5.99
+      }
+    ]
+  },
+  {
+    "name": "Augu barība VITO augšanas periodam 500ml",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 5.99
+      }
+    ]
+  },
+  {
+    "name": "Mēslojums GARDEN+ sarkanais 0,9kg",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 9.99
+      }
+    ]
+  },
+  {
+    "name": "Mēslojums GARDEN+ zaļais 0,9kg",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 9.99
+      }
+    ]
+  },
+  {
+    "name": "Mēslojums GARDEN+ universālais 0,9kg",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 9.99
+      }
+    ]
+  },
+  {
+    "name": "Tigrīdijas mix Agronom SG26",
+    "unit": "0,90 €/gab.",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.9
+      }
+    ]
+  },
+  {
+    "name": "D. Cimdi Kintar ar atstarojošām uzšuvēm",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.49
+      }
+    ]
+  },
+  {
+    "name": "Cirvju un nažu asināmais Fiskars SG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 29.99
       }
     ]
   },
@@ -924,17 +924,6 @@
     ]
   },
   {
-    "name": "Cāļu krūtiņas filejas gabaliņi Rimi 400g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.69
-      }
-    ]
-  },
-  {
     "name": "Desa Artesan Fuet Select. by Rimi Spān. 160g",
     "unit": "",
     "category": "drinks",
@@ -975,6 +964,17 @@
       {
         "store": "rimi",
         "price": 1.06
+      }
+    ]
+  },
+  {
+    "name": "Cūkas šķiņķis bez kaula kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
