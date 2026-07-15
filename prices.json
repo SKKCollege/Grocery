@@ -44,17 +44,6 @@
     ]
   },
   {
-    "name": "Grieķu jogurts Baltais bez piedevām 400g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.75
-      }
-    ]
-  },
-  {
     "name": "Olas Rimi kūtī dētas A/M Nr.2 15 gab.",
     "unit": "",
     "category": "dairy",
@@ -62,6 +51,17 @@
       {
         "store": "rimi",
         "price": 4.25
+      }
+    ]
+  },
+  {
+    "name": "Grieķu jogurts Baltais bez piedevām 400g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.75
       }
     ]
   },
@@ -88,17 +88,6 @@
     ]
   },
   {
-    "name": "Olas Balticovo brīv.vis.A/LM Nr.1 10gab.",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.25
-      }
-    ]
-  },
-  {
     "name": "Kefīrs Limbažu 2,5% 1,5l",
     "unit": "",
     "category": "dairy",
@@ -106,6 +95,17 @@
       {
         "store": "rimi",
         "price": 2.49
+      }
+    ]
+  },
+  {
+    "name": "Olas Balticovo brīv.vis.A/LM Nr.1 10gab.",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.25
       }
     ]
   },
@@ -231,24 +231,13 @@
     ]
   },
   {
-    "name": "Baltmaize Fazer kefīra 350g",
+    "name": "Tostermaize Latvijas Tost Maize 500g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.09
-      }
-    ]
-  },
-  {
-    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.19
+        "price": 1.56
       }
     ]
   },
@@ -264,6 +253,17 @@
     ]
   },
   {
+    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.19
+      }
+    ]
+  },
+  {
     "name": "Baltmaize Kungu sagriezta 400g",
     "unit": "",
     "category": "bread",
@@ -275,24 +275,13 @@
     ]
   },
   {
-    "name": "Tostermaize Latvijas Tost Maize 500g",
+    "name": "Baltmaize Fazer kefīra 350g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.56
-      }
-    ]
-  },
-  {
-    "name": "Rudzu maize Rikas 6 gab. 330g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.56
+        "price": 1.09
       }
     ]
   },
@@ -308,6 +297,17 @@
     ]
   },
   {
+    "name": "Maize melnā Latvijas graudu ar sēk. 340g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.47
+      }
+    ]
+  },
+  {
     "name": "Tostermaize RIMI pilngraudu 500g",
     "unit": "",
     "category": "bread",
@@ -319,13 +319,13 @@
     ]
   },
   {
-    "name": "Maize melnā Latvijas graudu ar sēk. 340g",
+    "name": "Tumšā sēklu maize Pļavas vizbulīte 300g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.47
+        "price": 1.19
       }
     ]
   },
@@ -451,17 +451,6 @@
     ]
   },
   {
-    "name": "Marinēti gurķi Rimi 3-6cm 670g/370g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.09
-      }
-    ]
-  },
-  {
     "name": "Sausās brokastis Rimi Choco Shells 250g",
     "unit": "",
     "category": "meat",
@@ -469,17 +458,6 @@
       {
         "store": "rimi",
         "price": 0.69
-      }
-    ]
-  },
-  {
-    "name": "Makaroni Dobele Nr.133 Fusilli 500g",
-    "unit": "1,50 €/kg",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.5
       }
     ]
   },
@@ -495,13 +473,24 @@
     ]
   },
   {
-    "name": "Kokogles Marienburg 30l",
-    "unit": "7,19 €/gab.",
-    "category": "vegetables",
+    "name": "Marinētas bietes Rimi Smart 450g/350g",
+    "unit": "",
+    "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 7.19
+        "price": 1.35
+      }
+    ]
+  },
+  {
+    "name": "Marinēti gurķi Rimi 3-6cm 670g/370g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.09
       }
     ]
   },
@@ -513,6 +502,17 @@
       {
         "store": "rimi",
         "price": 4.49
+      }
+    ]
+  },
+  {
+    "name": "Kokogles Marienburg 30l",
+    "unit": "7,19 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 7.19
       }
     ]
   },
@@ -583,17 +583,6 @@
     ]
   },
   {
-    "name": "Grila restes Good Cook",
-    "unit": "3,59 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.59
-      }
-    ]
-  },
-  {
     "name": "Grila iekurs, Fire & flame, balts 32gab.",
     "unit": "0,04 €/gab.",
     "category": "vegetables",
@@ -601,6 +590,17 @@
       {
         "store": "rimi",
         "price": 0.04
+      }
+    ]
+  },
+  {
+    "name": "Grila restes Good Cook",
+    "unit": "3,59 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.59
       }
     ]
   },
@@ -638,6 +638,17 @@
     ]
   },
   {
+    "name": "Šķiltavas Cricket  BBQ Firepower",
+    "unit": "1,79 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.79
+      }
+    ]
+  },
+  {
     "name": "Nerūsējošā tērauda iesmi Good Cook",
     "unit": "5,99 €/gab.",
     "category": "vegetables",
@@ -645,17 +656,6 @@
       {
         "store": "rimi",
         "price": 5.99
-      }
-    ]
-  },
-  {
-    "name": "Vienreizlietojamais grils Lokkii 600g",
-    "unit": "3,59 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.59
       }
     ]
   },
@@ -891,17 +891,6 @@
     ]
   },
   {
-    "name": "Cīsiņi Rakveres 500g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.59
-      }
-    ]
-  },
-  {
     "name": "Cāļu krūtiņas filejas gabaliņi Rimi 400g",
     "unit": "",
     "category": "drinks",
@@ -909,6 +898,17 @@
       {
         "store": "rimi",
         "price": 2.55
+      }
+    ]
+  },
+  {
+    "name": "Cīsiņi Rakveres 500g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.59
       }
     ]
   },
@@ -924,28 +924,6 @@
     ]
   },
   {
-    "name": "Maltā cūkgaļa Rimi 500gr",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.19
-      }
-    ]
-  },
-  {
-    "name": "Cāļa stilbi Ķekava A kategorija fasēti kg",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "Laša fileja Rimi auksti kūpināta 500g",
     "unit": "",
     "category": "drinks",
@@ -957,17 +935,6 @@
     ]
   },
   {
-    "name": "Cāļu stilbi bez locītavas A šķira kg",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.16
-      }
-    ]
-  },
-  {
     "name": "Cāļa aknas RIMI Smart 450g",
     "unit": "",
     "category": "drinks",
@@ -975,6 +942,39 @@
       {
         "store": "rimi",
         "price": 1.06
+      }
+    ]
+  },
+  {
+    "name": "Maltā cūkgaļa Rimi 500gr",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.19
+      }
+    ]
+  },
+  {
+    "name": "Pankūkas Rimi ar biezpienu 4x90g, 360g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.49
+      }
+    ]
+  },
+  {
+    "name": "Cāļa stilbi Ķekava A kategorija fasēti kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
