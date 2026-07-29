@@ -55,17 +55,6 @@
     ]
   },
   {
-    "name": "Skābais krējums Smiltene 15% 400g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.89
-      }
-    ]
-  },
-  {
     "name": "Skābais krējums Exporta 25% 360g",
     "unit": "",
     "category": "dairy",
@@ -73,6 +62,17 @@
       {
         "store": "rimi",
         "price": 1.49
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Smiltene 15% 400g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.89
       }
     ]
   },
@@ -95,17 +95,6 @@
       {
         "store": "rimi",
         "price": 3.19
-      }
-    ]
-  },
-  {
-    "name": "Siers Rimi Mozzarella 45% 125g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.79
       }
     ]
   },
@@ -139,6 +128,17 @@
       {
         "store": "rimi",
         "price": 1.35
+      }
+    ]
+  },
+  {
+    "name": "Sviests Rimi 82% tauku 200g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.19
       }
     ]
   },
@@ -242,17 +242,6 @@
     ]
   },
   {
-    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.53
-      }
-    ]
-  },
-  {
     "name": "Maize Latvijas graudu ar sēklām 500g",
     "unit": "",
     "category": "bread",
@@ -264,18 +253,18 @@
     ]
   },
   {
-    "name": "Baltmaize Kungu sagriezta 400g",
+    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.95
+        "price": 1.53
       }
     ]
   },
   {
-    "name": "Tumšā sēklu maize Pļavas vizbulīte 300g",
+    "name": "Baltmaize Kungu sagriezta 400g",
     "unit": "",
     "category": "bread",
     "prices": [
@@ -297,13 +286,13 @@
     ]
   },
   {
-    "name": "Tostermaize RIMI pilngraudu 500g",
+    "name": "Tumšā sēklu maize Pļavas vizbulīte 300g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.82
+        "price": 0.95
       }
     ]
   },
@@ -315,6 +304,17 @@
       {
         "store": "rimi",
         "price": 0.69
+      }
+    ]
+  },
+  {
+    "name": "Tostermaize RIMI pilngraudu 500g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.82
       }
     ]
   },
@@ -473,17 +473,6 @@
     ]
   },
   {
-    "name": "Konservēta saldā kukurūza Rimi 165g/140g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.79
-      }
-    ]
-  },
-  {
     "name": "Griķi Valdo fasēti 1kg",
     "unit": "",
     "category": "meat",
@@ -491,6 +480,17 @@
       {
         "store": "rimi",
         "price": 3.09
+      }
+    ]
+  },
+  {
+    "name": "Konservēta saldā kukurūza Rimi 165g/140g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.79
       }
     ]
   },
@@ -583,7 +583,18 @@
     ]
   },
   {
-    "name": "Grila iekurs, Fire & flame, balts 32gab.",
+    "name": "BBQ sērkociņi Rimi 45 gab.",
+    "unit": "0,02 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.02
+      }
+    ]
+  },
+  {
+    "name": "Aizdedzinātāji PROflame EXPERT 72pc",
     "unit": "0,05 €/gab.",
     "category": "vegetables",
     "prices": [
@@ -594,7 +605,7 @@
     ]
   },
   {
-    "name": "Aizdedzinātāji PROflame EXPERT 72pc",
+    "name": "Grila iekurs, Fire & flame, balts 32gab.",
     "unit": "0,05 €/gab.",
     "category": "vegetables",
     "prices": [
@@ -616,28 +627,6 @@
     ]
   },
   {
-    "name": "Briketes bbqgrill 2kg",
-    "unit": "3,49 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.49
-      }
-    ]
-  },
-  {
-    "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
-    "unit": "3,49 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.49
-      }
-    ]
-  },
-  {
     "name": "Grila restes Good Cook",
     "unit": "3,59 €/gab.",
     "category": "vegetables",
@@ -649,13 +638,24 @@
     ]
   },
   {
-    "name": "Gaļas termometrs BBQ 24 cm, GR26",
-    "unit": "2,99 €/gab.",
+    "name": "Aizdedzinātāji PROflame EXPERT 32gb",
+    "unit": "1,04 €/gab.",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.99
+        "price": 1.04
+      }
+    ]
+  },
+  {
+    "name": "Briketes bbqgrill 2kg",
+    "unit": "3,49 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.49
       }
     ]
   },
@@ -880,17 +880,6 @@
     ]
   },
   {
-    "name": "Cāļu krūtiņas filejas gabaliņi Rimi 400g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.69
-      }
-    ]
-  },
-  {
     "name": "Cāļa krūtiņas mazā fileja kg",
     "unit": "",
     "category": "drinks",
@@ -898,6 +887,17 @@
       {
         "store": "rimi",
         "price": 6.49
+      }
+    ]
+  },
+  {
+    "name": "Cāļu krūtiņas filejas gabaliņi Rimi 400g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.69
       }
     ]
   },
@@ -913,17 +913,6 @@
     ]
   },
   {
-    "name": "Fileja tītara gaļas šķēlēs 105g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.79
-      }
-    ]
-  },
-  {
     "name": "Cāļa stilbi Ķekava A kategorija fasēti kg",
     "unit": "",
     "category": "drinks",
@@ -931,6 +920,17 @@
       {
         "store": "rimi",
         "price": 4.34
+      }
+    ]
+  },
+  {
+    "name": "Fileja tītara gaļas šķēlēs 105g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.79
       }
     ]
   },
