@@ -88,6 +88,17 @@
     ]
   },
   {
+    "name": "Pilnpiena biezpiens Valmiera 9% 180g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.89
+      }
+    ]
+  },
+  {
     "name": "Olas Rimi kūtī dētas A/M Nr.2 15 gab.",
     "unit": "",
     "category": "dairy",
@@ -100,12 +111,12 @@
   },
   {
     "name": "Siers Rimi Mozzarella 45% 125g",
-    "unit": "4,72 €/kg",
+    "unit": "",
     "category": "dairy",
     "prices": [
       {
         "store": "rimi",
-        "price": 4.72
+        "price": 0.79
       }
     ]
   },
@@ -121,13 +132,13 @@
     ]
   },
   {
-    "name": "Pilnpiena biezpiens Valmiera 9% 180g",
+    "name": "Kefīrs Rimi 2% 1kg",
     "unit": "",
     "category": "dairy",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.89
+        "price": 1.35
       }
     ]
   },
@@ -150,17 +161,6 @@
       {
         "store": "rimi",
         "price": 0.79
-      }
-    ]
-  },
-  {
-    "name": "Kefīrs Rimi 2% 1kg",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.35
       }
     ]
   },
@@ -253,17 +253,6 @@
     ]
   },
   {
-    "name": "Baltmaize Kungu sagriezta 400g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.95
-      }
-    ]
-  },
-  {
     "name": "Ciabatta Latvijas Maiznieks tumšā 250g",
     "unit": "",
     "category": "bread",
@@ -275,13 +264,13 @@
     ]
   },
   {
-    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
+    "name": "Baltmaize Kungu sagriezta 400g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.53
+        "price": 0.95
       }
     ]
   },
@@ -297,13 +286,13 @@
     ]
   },
   {
-    "name": "Tostermaize Latvijas Tost Maize 500g",
+    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.09
+        "price": 1.53
       }
     ]
   },
@@ -325,7 +314,18 @@
     "prices": [
       {
         "store": "rimi",
-        "price": 0.69
+        "price": 0.68
+      }
+    ]
+  },
+  {
+    "name": "Tostermaize Latvijas Tost Maize 500g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.09
       }
     ]
   },
@@ -396,6 +396,17 @@
     ]
   },
   {
+    "name": "Cukurs Dansukker Jelgavas 1kg",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.19
+      }
+    ]
+  },
+  {
     "name": "Kviešu milti Ekstra 1kg",
     "unit": "",
     "category": "meat",
@@ -407,19 +418,8 @@
     ]
   },
   {
-    "name": "Cukurs Dansukker Jelgavas 1kg",
-    "unit": "0,83 €/kg",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.83
-      }
-    ]
-  },
-  {
-    "name": "Cukurs Rimi 1kg",
-    "unit": "0,69 €/kg",
+    "name": "Cukurs Rimi Smart 1kg",
+    "unit": "",
     "category": "meat",
     "prices": [
       {
@@ -429,24 +429,13 @@
     ]
   },
   {
-    "name": "Cukurs Rimi Smart 1kg",
-    "unit": "0,48 €/kg",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.48
-      }
-    ]
-  },
-  {
-    "name": "Kviešu milti Ekstra 2kg",
+    "name": "Cukurs Rimi 1kg",
     "unit": "",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.29
+        "price": 0.99
       }
     ]
   },
@@ -458,6 +447,17 @@
       {
         "store": "rimi",
         "price": 3.24
+      }
+    ]
+  },
+  {
+    "name": "Kviešu milti Ekstra 2kg",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.29
       }
     ]
   },
@@ -506,17 +506,6 @@
     ]
   },
   {
-    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
-    "unit": "2,09 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.09
-      }
-    ]
-  },
-  {
     "name": "Kokogles Marienburg 30l",
     "unit": "8,39 €/gab.",
     "category": "vegetables",
@@ -524,6 +513,17 @@
       {
         "store": "rimi",
         "price": 8.39
+      }
+    ]
+  },
+  {
+    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
+    "unit": "2,09 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.09
       }
     ]
   },
@@ -572,28 +572,6 @@
     ]
   },
   {
-    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
-    "unit": "3,49 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.49
-      }
-    ]
-  },
-  {
-    "name": "BBQ sērkociņi Rimi 45 gab.",
-    "unit": "0,02 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.02
-      }
-    ]
-  },
-  {
     "name": "Aizdedzinātāji PROflame EXPERT 72pc",
     "unit": "0,05 €/gab.",
     "category": "vegetables",
@@ -601,6 +579,17 @@
       {
         "store": "rimi",
         "price": 0.05
+      }
+    ]
+  },
+  {
+    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
+    "unit": "3,49 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.49
       }
     ]
   },
@@ -616,6 +605,28 @@
     ]
   },
   {
+    "name": "Grila restes Good Cook",
+    "unit": "3,59 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.59
+      }
+    ]
+  },
+  {
+    "name": "BBQ sērkociņi Rimi 45 gab.",
+    "unit": "0,02 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.02
+      }
+    ]
+  },
+  {
     "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
     "unit": "3,49 €/gab.",
     "category": "vegetables",
@@ -627,6 +638,17 @@
     ]
   },
   {
+    "name": "Gaļas termometrs BBQ 24 cm, GR26",
+    "unit": "2,99 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
+      }
+    ]
+  },
+  {
     "name": "Šķiltavas PROflame EXPERT BBQ",
     "unit": "1,39 €/gab.",
     "category": "vegetables",
@@ -634,28 +656,6 @@
       {
         "store": "rimi",
         "price": 1.39
-      }
-    ]
-  },
-  {
-    "name": "Briketes bbqgrill 2kg",
-    "unit": "3,49 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.49
-      }
-    ]
-  },
-  {
-    "name": "Grila restes Good Cook",
-    "unit": "3,59 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.59
       }
     ]
   },
@@ -820,7 +820,7 @@
     "prices": [
       {
         "store": "rimi",
-        "price": 3.23
+        "price": 3.19
       }
     ]
   },
@@ -853,7 +853,7 @@
     "prices": [
       {
         "store": "rimi",
-        "price": 3.99
+        "price": 3.49
       }
     ]
   },
@@ -869,13 +869,13 @@
     ]
   },
   {
-    "name": "Cīsiņi Mini bez apvalka 450g",
+    "name": "Cāļa stilbi Ķekava A kategorija fasēti kg",
     "unit": "",
     "category": "drinks",
     "prices": [
       {
         "store": "rimi",
-        "price": 3.49
+        "price": 4.34
       }
     ]
   },
@@ -891,13 +891,13 @@
     ]
   },
   {
-    "name": "Cāļa stilbi Ķekava A kategorija fasēti kg",
+    "name": "Cīsiņi Mini bez apvalka 450g",
     "unit": "",
     "category": "drinks",
     "prices": [
       {
         "store": "rimi",
-        "price": 4.34
+        "price": 3.49
       }
     ]
   },
@@ -935,17 +935,6 @@
     ]
   },
   {
-    "name": "Cāļa stilbi Rimi bez locītavas 500g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.12
-      }
-    ]
-  },
-  {
     "name": "Cāļa aknas RIMI Smart 450g",
     "unit": "",
     "category": "drinks",
@@ -953,6 +942,17 @@
       {
         "store": "rimi",
         "price": 1.06
+      }
+    ]
+  },
+  {
+    "name": "Tītara krūt. filejas m. gaļa Rimi atdz. 500g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.69
       }
     ]
   },
@@ -968,13 +968,13 @@
     ]
   },
   {
-    "name": "Tītara krūt. filejas m. gaļa Rimi atdz. 500g",
+    "name": "Cāļa stilbi Rimi bez locītavas 500g",
     "unit": "",
     "category": "drinks",
     "prices": [
       {
         "store": "rimi",
-        "price": 3.69
+        "price": 2.12
       }
     ]
   }
