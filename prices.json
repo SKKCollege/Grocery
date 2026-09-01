@@ -33,13 +33,13 @@
     ]
   },
   {
-    "name": "Sviests saldkrējuma 82,5% 200g",
-    "unit": "5,95 €/kg",
+    "name": "Olas Rimi Iecavas kūtī dētas A/L No.2,10 gab.",
+    "unit": "",
     "category": "dairy",
     "prices": [
       {
         "store": "rimi",
-        "price": 5.95
+        "price": 2.69
       }
     ]
   },
@@ -51,17 +51,6 @@
       {
         "store": "rimi",
         "price": 1.49
-      }
-    ]
-  },
-  {
-    "name": "Olas Rimi Iecavas kūtī dētas A/L No.2,10 gab.",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.69
       }
     ]
   },
@@ -154,6 +143,17 @@
     ]
   },
   {
+    "name": "Vājpiena biezpiens Rimi Smart 0,5% 180g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.69
+      }
+    ]
+  },
+  {
     "name": "Piens Annele pasterizēts 2,5% 2l",
     "unit": "",
     "category": "dairy",
@@ -242,17 +242,6 @@
     ]
   },
   {
-    "name": "Baltmaize Fazer kefīra 350g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.29
-      }
-    ]
-  },
-  {
     "name": "Rudzu maize Zeltene sagriezta 800g",
     "unit": "",
     "category": "bread",
@@ -271,6 +260,17 @@
       {
         "store": "rimi",
         "price": 0.82
+      }
+    ]
+  },
+  {
+    "name": "Baltmaize Fazer kefīra 350g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.29
       }
     ]
   },
@@ -297,17 +297,6 @@
     ]
   },
   {
-    "name": "Tosterm. Latvijas Tost Maize 100% rudzu 390g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.45
-      }
-    ]
-  },
-  {
     "name": "Rudzu formas maize Rimi Beķera 600g",
     "unit": "",
     "category": "bread",
@@ -319,13 +308,24 @@
     ]
   },
   {
-    "name": "Maize franču ar ķiploku pildījumu 160g",
+    "name": "Tosterm. Latvijas Tost Maize 100% rudzu 390g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.92
+        "price": 1.45
+      }
+    ]
+  },
+  {
+    "name": "Rudzu maize Īstenā bez rauga 730g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.55
       }
     ]
   },
@@ -369,7 +369,7 @@
     "prices": [
       {
         "store": "rimi",
-        "price": 1.42
+        "price": 2.39
       }
     ]
   },
@@ -391,7 +391,7 @@
     "prices": [
       {
         "store": "rimi",
-        "price": 1.99
+        "price": 2.99
       }
     ]
   },
@@ -429,17 +429,6 @@
     ]
   },
   {
-    "name": "Griķi Valdo 4x125g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.99
-      }
-    ]
-  },
-  {
     "name": "Konservēta kukurūza Rimi saldā 340g/285g",
     "unit": "",
     "category": "meat",
@@ -447,6 +436,17 @@
       {
         "store": "rimi",
         "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Griķi Valdo 4x125g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.99
       }
     ]
   },
@@ -539,17 +539,6 @@
     ]
   },
   {
-    "name": "BBQ sērkociņi ProFlame 50 gab.",
-    "unit": "0,02 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.02
-      }
-    ]
-  },
-  {
     "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
     "unit": "2,99 €/gab.",
     "category": "vegetables",
@@ -557,6 +546,17 @@
       {
         "store": "rimi",
         "price": 2.99
+      }
+    ]
+  },
+  {
+    "name": "BBQ sērkociņi ProFlame 50 gab.",
+    "unit": "0,02 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.02
       }
     ]
   },
@@ -572,17 +572,6 @@
     ]
   },
   {
-    "name": "Aizd.šķidr.Good Cook 1L uz paraf.bāzes",
-    "unit": "2,57 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.57
-      }
-    ]
-  },
-  {
     "name": "Grila iekurs, Fire & flame, balts 32gab.",
     "unit": "0,04 €/gab.",
     "category": "vegetables",
@@ -590,6 +579,17 @@
       {
         "store": "rimi",
         "price": 0.04
+      }
+    ]
+  },
+  {
+    "name": "Aizd.šķidr.Good Cook 1L uz paraf.bāzes",
+    "unit": "2,57 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.57
       }
     ]
   },
@@ -715,50 +715,6 @@
     ]
   },
   {
-    "name": "Sinepju sēklas Braco, baltās AG26",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 6.79
-      }
-    ]
-  },
-  {
-    "name": "Universālais rudens mēslojums 2kg AG26",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.79
-      }
-    ]
-  },
-  {
-    "name": "Universālais rudens mēslojums 4kg AG26",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 7.99
-      }
-    ]
-  },
-  {
-    "name": "Universālais rudens mēslojums 1kg AG26",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.49
-      }
-    ]
-  },
-  {
     "name": "Cirvju un nažu asināmais Fiskars SG26",
     "unit": "",
     "category": "fruit",
@@ -814,13 +770,57 @@
     ]
   },
   {
-    "name": "Grozs Aleana ziedu sīpoliem AG26",
+    "name": "Dārza grābeklis mazs AG25",
     "unit": "",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.49
+        "price": 1.99
+      }
+    ]
+  },
+  {
+    "name": "Ķiploki Agronom Ivory Queen AG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.79
+      }
+    ]
+  },
+  {
+    "name": "Tulpes Agronom Miranda AG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.99
+      }
+    ]
+  },
+  {
+    "name": "Armeniacum Agronom zili ziedi AG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.49
+      }
+    ]
+  },
+  {
+    "name": "Narcises Agronom Unsurpassable AG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.79
       }
     ]
   },
@@ -831,7 +831,7 @@
     "prices": [
       {
         "store": "rimi",
-        "price": 3.19
+        "price": 3.09
       }
     ]
   },
