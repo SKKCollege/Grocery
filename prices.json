@@ -44,17 +44,6 @@
     ]
   },
   {
-    "name": "Skābais krējums Exporta 25% 360g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.49
-      }
-    ]
-  },
-  {
     "name": "Skābais krējums Valmiera 20% 450g",
     "unit": "",
     "category": "dairy",
@@ -62,6 +51,17 @@
       {
         "store": "rimi",
         "price": 2.39
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Exporta 25% 360g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.49
       }
     ]
   },
@@ -99,6 +99,17 @@
     ]
   },
   {
+    "name": "Skābais krējums Rimi 20% 400g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.49
+      }
+    ]
+  },
+  {
     "name": "Olas Rimi kūtī dētas A/M Nr.2 15 gab.",
     "unit": "",
     "category": "dairy",
@@ -111,17 +122,6 @@
   },
   {
     "name": "Grieķu jogurts Baltais bez piedevām 400g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.49
-      }
-    ]
-  },
-  {
-    "name": "Skābais krējums Rimi 20% 400g",
     "unit": "",
     "category": "dairy",
     "prices": [
@@ -275,17 +275,6 @@
     ]
   },
   {
-    "name": "Rudzu maize Rikas 6 gab. 330g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.49
-      }
-    ]
-  },
-  {
     "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
     "unit": "",
     "category": "bread",
@@ -293,6 +282,17 @@
       {
         "store": "rimi",
         "price": 1.53
+      }
+    ]
+  },
+  {
+    "name": "Rudzu maize Rikas 6 gab. 330g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.49
       }
     ]
   },
@@ -319,13 +319,13 @@
     ]
   },
   {
-    "name": "Ciabatta Latvijas Maiznieks tumšā 250g",
+    "name": "Tosterm. Latvijas Tost Maize 100% rudzu 390g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.99
+        "price": 1.45
       }
     ]
   },
@@ -462,17 +462,6 @@
     ]
   },
   {
-    "name": "Cukurs Rimi Smart 1kg",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.69
-      }
-    ]
-  },
-  {
     "name": "Auzu pārslas Dobele ātri vāramās 500g",
     "unit": "1,78 €/kg",
     "category": "meat",
@@ -491,6 +480,17 @@
       {
         "store": "rimi",
         "price": 1.25
+      }
+    ]
+  },
+  {
+    "name": "Makaroni Dobele Nr.150 Cornetti Rigati 500g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.29
       }
     ]
   },
@@ -539,6 +539,17 @@
     ]
   },
   {
+    "name": "Šķiltavas Cricket  BBQ Firepower",
+    "unit": "1,79 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.79
+      }
+    ]
+  },
+  {
     "name": "Grila iekurs, Fire & flame, balts 32gab.",
     "unit": "0,04 €/gab.",
     "category": "vegetables",
@@ -557,17 +568,6 @@
       {
         "store": "rimi",
         "price": 2.57
-      }
-    ]
-  },
-  {
-    "name": "Šķiltavas Cricket  BBQ Firepower",
-    "unit": "1,79 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.79
       }
     ]
   },
@@ -594,17 +594,6 @@
     ]
   },
   {
-    "name": "Vienreizējais grils bbq fire&flame",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.99
-      }
-    ]
-  },
-  {
     "name": "Aizdedzinātāji PROflame EXPERT 32gb",
     "unit": "0,89 €/gab.",
     "category": "vegetables",
@@ -623,6 +612,17 @@
       {
         "store": "rimi",
         "price": 0.04
+      }
+    ]
+  },
+  {
+    "name": "Vienreizējais grils bbq fire&flame",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.99
       }
     ]
   },
@@ -682,17 +682,6 @@
     ]
   },
   {
-    "name": "Augsne Juknevičiaus Kompostas 3,5l",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.29
-      }
-    ]
-  },
-  {
     "name": "Cimdi ar punktiņiem Kendo izmērs 10",
     "unit": "",
     "category": "fruit",
@@ -704,6 +693,17 @@
     ]
   },
   {
+    "name": "Augsne Juknevičiaus Kompostas 3,5l",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.29
+      }
+    ]
+  },
+  {
     "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
     "unit": "",
     "category": "fruit",
@@ -711,6 +711,17 @@
       {
         "store": "rimi",
         "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Narcises Agronom Tete-A-Tete AG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.49
       }
     ]
   },
@@ -814,28 +825,6 @@
     ]
   },
   {
-    "name": "Narcises Agronom Unsurpassable AG26",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.79
-      }
-    ]
-  },
-  {
-    "name": "Cāļu mazās filejas RIMI 400g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.09
-      }
-    ]
-  },
-  {
     "name": "Atlantijas laša fileja kg",
     "unit": "",
     "category": "drinks",
@@ -847,13 +836,13 @@
     ]
   },
   {
-    "name": "Cāļu krūtiņas filejas Rimi kg",
+    "name": "Cāļu mazās filejas RIMI 400g",
     "unit": "",
     "category": "drinks",
     "prices": [
       {
         "store": "rimi",
-        "price": 6.99
+        "price": 3.09
       }
     ]
   },
@@ -913,6 +902,17 @@
     ]
   },
   {
+    "name": "Atkauloti cāļu šķiņķi bez ādas Rimi kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 5.49
+      }
+    ]
+  },
+  {
     "name": "Tītara gaļa kotletēm, atdzesēta Rimi 500g",
     "unit": "",
     "category": "drinks",
@@ -931,17 +931,6 @@
       {
         "store": "rimi",
         "price": 2.99
-      }
-    ]
-  },
-  {
-    "name": "Atkauloti cāļu šķiņķi bez ādas Rimi kg",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 5.49
       }
     ]
   },
@@ -986,6 +975,17 @@
       {
         "store": "rimi",
         "price": 3.49
+      }
+    ]
+  },
+  {
+    "name": "Maltā cūkgaļa Rimi 500gr",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.79
       }
     ]
   }
