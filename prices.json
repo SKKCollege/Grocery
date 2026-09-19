@@ -88,17 +88,6 @@
     ]
   },
   {
-    "name": "Pilnpiena biezpiens Valmiera 9% 180g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.99
-      }
-    ]
-  },
-  {
     "name": "Olas Rimi kūtī dētas A/M Nr.2 15 gab.",
     "unit": "",
     "category": "dairy",
@@ -121,24 +110,13 @@
     ]
   },
   {
-    "name": "Skābais krējums Valmiera 20% 450g",
+    "name": "Pilnpiena biezpiens Valmiera 9% 180g",
     "unit": "",
     "category": "dairy",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.39
-      }
-    ]
-  },
-  {
-    "name": "Kausētais siers Dzintars klasiskais 200g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.39
+        "price": 0.99
       }
     ]
   },
@@ -161,6 +139,28 @@
       {
         "store": "rimi",
         "price": 0.79
+      }
+    ]
+  },
+  {
+    "name": "Kausētais siers Dzintars klasiskais 200g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.39
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Valmiera 20% 450g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.39
       }
     ]
   },
@@ -253,17 +253,6 @@
     ]
   },
   {
-    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.15
-      }
-    ]
-  },
-  {
     "name": "Čia maize Lielmaize 300g",
     "unit": "2,63 €/kg",
     "category": "bread",
@@ -271,6 +260,17 @@
       {
         "store": "rimi",
         "price": 2.63
+      }
+    ]
+  },
+  {
+    "name": "Maize Gardā mellā ar saulespuķu sēklām 280g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.15
       }
     ]
   },
@@ -286,17 +286,6 @@
     ]
   },
   {
-    "name": "Rudzu maize Zeltene sagriezta 800g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.84
-      }
-    ]
-  },
-  {
     "name": "Ciabatta Latvijas Maiznieks tumšā 250g",
     "unit": "",
     "category": "bread",
@@ -304,6 +293,17 @@
       {
         "store": "rimi",
         "price": 1.09
+      }
+    ]
+  },
+  {
+    "name": "Rudzu maize Zeltene sagriezta 800g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.84
       }
     ]
   },
@@ -374,17 +374,6 @@
     ]
   },
   {
-    "name": "Sviesta pupiņas Rimi 400g/250g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.89
-      }
-    ]
-  },
-  {
     "name": "Kviešu milti Ekstra 2kg",
     "unit": "0,85 €/kg",
     "category": "meat",
@@ -392,6 +381,17 @@
       {
         "store": "rimi",
         "price": 0.85
+      }
+    ]
+  },
+  {
+    "name": "Sviesta pupiņas Rimi 400g/250g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.89
       }
     ]
   },
@@ -418,17 +418,6 @@
     ]
   },
   {
-    "name": "Makaroni Dobele Nr.133 Fusilli 500g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.29
-      }
-    ]
-  },
-  {
     "name": "Kukurūza Bonduelle konservēta 340g/285g",
     "unit": "3,82 €/kg",
     "category": "meat",
@@ -436,6 +425,17 @@
       {
         "store": "rimi",
         "price": 3.82
+      }
+    ]
+  },
+  {
+    "name": "Makaroni Dobele Nr.133 Fusilli 500g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.29
       }
     ]
   },
@@ -484,13 +484,13 @@
     ]
   },
   {
-    "name": "Marinēti gurķi Rimi 3-6cm 670g/370g",
-    "unit": "",
+    "name": "Maltā kafija Merrild in-cup 400g",
+    "unit": "14,97 €/kg",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.09
+        "price": 14.97
       }
     ]
   },
@@ -550,7 +550,7 @@
     ]
   },
   {
-    "name": "Aizdedzinātāji PROflame EXPERT 72pc",
+    "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
     "unit": "",
     "category": "vegetables",
     "prices": [
@@ -568,6 +568,17 @@
       {
         "store": "rimi",
         "price": 1.49
+      }
+    ]
+  },
+  {
+    "name": "Aizdedzinātāji PROflame EXPERT 72pc",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.99
       }
     ]
   },
@@ -605,17 +616,6 @@
     ]
   },
   {
-    "name": "Uguns aizdedzināšanas līdzeklis Fire up 32gab",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.99
-      }
-    ]
-  },
-  {
     "name": "Vienreizējais grils bbq fire&flame",
     "unit": "",
     "category": "vegetables",
@@ -627,7 +627,7 @@
     ]
   },
   {
-    "name": "Grila pap. kom. BBQ 24x16x1,5cm 4gb GR26",
+    "name": "Uguns aizdedzināšanas līdzeklis Fire up 32gab",
     "unit": "",
     "category": "vegetables",
     "prices": [
@@ -638,24 +638,24 @@
     ]
   },
   {
-    "name": "Lampu eļļa Cozy Home 1L",
+    "name": "Vienreizlietojamais grils Lokkii 600g",
     "unit": "",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 4.29
+        "price": 5.99
       }
     ]
   },
   {
-    "name": "BBQ sērkociņi Rimi 45 gab.",
+    "name": "Grila pap. kom. BBQ 24x16x1,5cm 4gb GR26",
     "unit": "",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.29
+        "price": 1.99
       }
     ]
   },
@@ -704,17 +704,6 @@
     ]
   },
   {
-    "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.99
-      }
-    ]
-  },
-  {
     "name": "Tulpes Agronom Triumfa Rose AG26",
     "unit": "2,27 €/gab.",
     "category": "fruit",
@@ -722,17 +711,6 @@
       {
         "store": "rimi",
         "price": 2.27
-      }
-    ]
-  },
-  {
-    "name": "Cimdi ar punktiņiem Kendo izmērs 10",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.99
       }
     ]
   },
@@ -748,17 +726,6 @@
     ]
   },
   {
-    "name": "Tulpes Agronom Angelique AG26",
-    "unit": "2,99 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "Augsne Juknevičiaus Kompostas 3,5l",
     "unit": "",
     "category": "fruit",
@@ -770,18 +737,18 @@
     ]
   },
   {
-    "name": "Tulpes Agronom Black AG26",
-    "unit": "2,99 €/gab.",
+    "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
+    "unit": "",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.99
+        "price": 0.99
       }
     ]
   },
   {
-    "name": "Tulpes Agronom Candy Prince AG26",
+    "name": "Tulpes Agronom Angelique AG26",
     "unit": "2,99 €/gab.",
     "category": "fruit",
     "prices": [
@@ -803,6 +770,28 @@
     ]
   },
   {
+    "name": "Cimdi ar punktiņiem Kendo izmērs 10",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Tulpes Agronom Candy Prince AG26",
+    "unit": "2,99 €/gab.",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
+      }
+    ]
+  },
+  {
     "name": "Tulpes Agronom Bolroyal Dream AG26",
     "unit": "2,99 €/gab.",
     "category": "fruit",
@@ -814,13 +803,24 @@
     ]
   },
   {
-    "name": "Armeniacum Agronom zili ziedi AG26",
-    "unit": "1,49 €/gab.",
+    "name": "Tulpju sīpoli Aseja Snow Crystal AW26",
+    "unit": "3,00 €/gab.",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.49
+        "price": 3.0
+      }
+    ]
+  },
+  {
+    "name": "Ķiploki Agronom Ivory Queen AG26",
+    "unit": "2,27 €/gab.",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.27
       }
     ]
   },
