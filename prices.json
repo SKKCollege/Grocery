@@ -1,5 +1,49 @@
 [
   {
+    "name": "Sviests Rimi 82% tauku 200g",
+    "unit": "5,95 €/kg",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.79
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Valmiera 20% 450g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.49
+      }
+    ]
+  },
+  {
+    "name": "Siers Holandes 500g",
+    "unit": "6,98 €/kg",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 6.98
+      }
+    ]
+  },
+  {
+    "name": "Jogurta dzēriens Actimel zemeņu banānu 8x100g",
+    "unit": "3,49 €/kg",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.49
+      }
+    ]
+  },
+  {
     "name": "Skābais krējums Exporta 25% 360g",
     "unit": "",
     "category": "dairy",
@@ -11,17 +55,6 @@
     ]
   },
   {
-    "name": "Piens Rimi pudele 2% 1l",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.99
-      }
-    ]
-  },
-  {
     "name": "Sviests Exporta 82,5% 200g",
     "unit": "",
     "category": "dairy",
@@ -29,6 +62,17 @@
       {
         "store": "rimi",
         "price": 2.75
+      }
+    ]
+  },
+  {
+    "name": "Piens Rimi pudele 2% 1l",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.99
       }
     ]
   },
@@ -110,28 +154,6 @@
     ]
   },
   {
-    "name": "Kausētais siers Dzintars klasiskais 200g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.29
-      }
-    ]
-  },
-  {
-    "name": "Ciets siers Rimi rīvēts 80g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.99
-      }
-    ]
-  },
-  {
     "name": "Pilnpiena biezpiens Valmiera 9% 180g",
     "unit": "",
     "category": "dairy",
@@ -139,28 +161,6 @@
       {
         "store": "rimi",
         "price": 0.75
-      }
-    ]
-  },
-  {
-    "name": "Sviests Rimi 82% tauku 200g",
-    "unit": "5,95 €/kg",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.79
-      }
-    ]
-  },
-  {
-    "name": "Graudainais biezpiens Rimi 160g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.79
       }
     ]
   },
@@ -205,6 +205,17 @@
       {
         "store": "rimi",
         "price": 1.81
+      }
+    ]
+  },
+  {
+    "name": "Maize Latvijas graudu ar sēklām 500g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.39
       }
     ]
   },
@@ -286,17 +297,6 @@
     ]
   },
   {
-    "name": "Maize Latvijas graudu ar sēklām 500g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.39
-      }
-    ]
-  },
-  {
     "name": "Tostermaize RIMI pilngraudu 500g",
     "unit": "",
     "category": "bread",
@@ -319,13 +319,35 @@
     ]
   },
   {
-    "name": "Maize franču ar ķiploku pildījumu 160g",
-    "unit": "",
+    "name": "Saldskābā pilngraudu maize Lielmaize 600g",
+    "unit": "1,98 €/kg",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 0.92
+        "price": 1.98
+      }
+    ]
+  },
+  {
+    "name": "Šķīstošā kafija Jacobs Kronung 200g",
+    "unit": "38,45 €/kg",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 38.45
+      }
+    ]
+  },
+  {
+    "name": "Kafijas pupiņas Merrild Barista Cremoso 1kg",
+    "unit": "15,49 €/kg",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 15.49
       }
     ]
   },
@@ -418,17 +440,6 @@
     ]
   },
   {
-    "name": "Marinēti gurķi Spilva 6-9cm 670g/360g",
-    "unit": "5,25 €/kg",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 5.25
-      }
-    ]
-  },
-  {
     "name": "Makaroni Barilla Nr.5 Spaghetti 500g",
     "unit": "",
     "category": "meat",
@@ -436,6 +447,17 @@
       {
         "store": "rimi",
         "price": 1.85
+      }
+    ]
+  },
+  {
+    "name": "Marinēti gurķi Spilva 6-9cm 670g/360g",
+    "unit": "5,25 €/kg",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 5.25
       }
     ]
   },
@@ -469,28 +491,6 @@
       {
         "store": "rimi",
         "price": 3.49
-      }
-    ]
-  },
-  {
-    "name": "Auzu pārslas Dobele ātri vāramās 500g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.15
-      }
-    ]
-  },
-  {
-    "name": "Konservēta kukurūza Rimi saldā 340g/285g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.09
       }
     ]
   },
@@ -693,17 +693,6 @@
     ]
   },
   {
-    "name": "Augsne Juknevičiaus Kompostas 3,5l",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.29
-      }
-    ]
-  },
-  {
     "name": "Narcises Agronom Unsurpassable AG26",
     "unit": "",
     "category": "fruit",
@@ -726,13 +715,13 @@
     ]
   },
   {
-    "name": "Tulpes Agronom Angelique AG26",
+    "name": "Augsne Juknevičiaus Kompostas 3,5l",
     "unit": "",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 4.99
+        "price": 4.29
       }
     ]
   },
@@ -825,6 +814,17 @@
     ]
   },
   {
+    "name": "Tulpes Agronom Purple Flag AG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.99
+      }
+    ]
+  },
+  {
     "name": "Atlantijas laša fileja kg",
     "unit": "",
     "category": "drinks",
@@ -832,6 +832,28 @@
       {
         "store": "rimi",
         "price": 12.99
+      }
+    ]
+  },
+  {
+    "name": "Cūkgaļas karbonāde bez kaula kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.29
+      }
+    ]
+  },
+  {
+    "name": "Karpa ķidāta kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 6.99
       }
     ]
   },
@@ -858,17 +880,6 @@
     ]
   },
   {
-    "name": "Cāļu stilbi Rimi 500g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.12
-      }
-    ]
-  },
-  {
     "name": "Atkauloti cāļu šķiņķi bez ādas Rimi kg",
     "unit": "",
     "category": "drinks",
@@ -876,6 +887,17 @@
       {
         "store": "rimi",
         "price": 5.49
+      }
+    ]
+  },
+  {
+    "name": "Cāļu stilbi Rimi 500g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.12
       }
     ]
   },
@@ -913,17 +935,6 @@
     ]
   },
   {
-    "name": "Jauktā maltā gaļa Rimi 500g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "Fileja tītara gaļas šķēlēs 105g",
     "unit": "",
     "category": "drinks",
@@ -931,6 +942,17 @@
       {
         "store": "rimi",
         "price": 1.79
+      }
+    ]
+  },
+  {
+    "name": "Jauktā maltā gaļa Rimi 500g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
@@ -964,28 +986,6 @@
       {
         "store": "rimi",
         "price": 6.49
-      }
-    ]
-  },
-  {
-    "name": "Cīsiņi Mini bez apvalka 450g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.49
-      }
-    ]
-  },
-  {
-    "name": "Cāļa škiņķi Ķekava bez ādas, atkauloti 500g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.99
       }
     ]
   }
