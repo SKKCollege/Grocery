@@ -55,17 +55,6 @@
     ]
   },
   {
-    "name": "Sviests Exporta 82,5% 200g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.75
-      }
-    ]
-  },
-  {
     "name": "Piens Rimi pudele 2% 1l",
     "unit": "",
     "category": "dairy",
@@ -73,6 +62,17 @@
       {
         "store": "rimi",
         "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Sviests Exporta 82,5% 200g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.75
       }
     ]
   },
@@ -242,6 +242,17 @@
     ]
   },
   {
+    "name": "Saldskābmaize Fazer ierauga 500g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.12
+      }
+    ]
+  },
+  {
     "name": "Čia maize Lielmaize 300g",
     "unit": "3,30 €/kg",
     "category": "bread",
@@ -260,17 +271,6 @@
       {
         "store": "rimi",
         "price": 1.53
-      }
-    ]
-  },
-  {
-    "name": "Saldskābmaize Fazer ierauga 500g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.12
       }
     ]
   },
@@ -319,13 +319,13 @@
     ]
   },
   {
-    "name": "Tumšā sēklu maize Pļavas vizbulīte 300g",
+    "name": "Maize franču ar ķiploku pildījumu 160g",
     "unit": "",
     "category": "bread",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.09
+        "price": 0.92
       }
     ]
   },
@@ -440,17 +440,6 @@
     ]
   },
   {
-    "name": "Makaroni Barilla Nr.5 Spaghetti 500g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.85
-      }
-    ]
-  },
-  {
     "name": "Marinēti gurķi Spilva 6-9cm 670g/360g",
     "unit": "5,25 €/kg",
     "category": "meat",
@@ -462,13 +451,13 @@
     ]
   },
   {
-    "name": "Cukurs Dansukker Jelgavas 1kg",
+    "name": "Makaroni Barilla Nr.5 Spaghetti 500g",
     "unit": "",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.19
+        "price": 1.85
       }
     ]
   },
@@ -480,6 +469,17 @@
       {
         "store": "rimi",
         "price": 0.79
+      }
+    ]
+  },
+  {
+    "name": "Cukurs Dansukker Jelgavas 1kg",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.19
       }
     ]
   },
@@ -561,17 +561,6 @@
     ]
   },
   {
-    "name": "Grila iekurs, Fire & flame, balts 32gab.",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.29
-      }
-    ]
-  },
-  {
     "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
     "unit": "",
     "category": "vegetables",
@@ -590,6 +579,17 @@
       {
         "store": "rimi",
         "price": 4.99
+      }
+    ]
+  },
+  {
+    "name": "Grila iekurs, Fire & flame, balts 32gab.",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.29
       }
     ]
   },
@@ -627,17 +627,6 @@
     ]
   },
   {
-    "name": "BBQ sērkociņi Rimi 45 gab.",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.29
-      }
-    ]
-  },
-  {
     "name": "Vienreizlietojamais grils Lokkii 600g",
     "unit": "",
     "category": "vegetables",
@@ -656,6 +645,17 @@
       {
         "store": "rimi",
         "price": 9.99
+      }
+    ]
+  },
+  {
+    "name": "Koka skaidas Flesh Cherry 500g GR24",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 7.99
       }
     ]
   },
@@ -737,17 +737,6 @@
     ]
   },
   {
-    "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.99
-      }
-    ]
-  },
-  {
     "name": "Ranunculus Agronom jauktas AG26",
     "unit": "",
     "category": "fruit",
@@ -770,7 +759,7 @@
     ]
   },
   {
-    "name": "Cimdi ar punktiņiem Kendo izmērs 10",
+    "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
     "unit": "",
     "category": "fruit",
     "prices": [
@@ -810,6 +799,17 @@
       {
         "store": "rimi",
         "price": 5.99
+      }
+    ]
+  },
+  {
+    "name": "Cimdi ar punktiņiem Kendo izmērs 10",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.99
       }
     ]
   },
@@ -858,17 +858,6 @@
     ]
   },
   {
-    "name": "Cāļu krūtiņas filejas Rimi kg",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 6.99
-      }
-    ]
-  },
-  {
     "name": "Atkauloti cāļu šķiņķi bez ādas Rimi kg",
     "unit": "",
     "category": "drinks",
@@ -887,6 +876,17 @@
       {
         "store": "rimi",
         "price": 3.09
+      }
+    ]
+  },
+  {
+    "name": "Cāļu krūtiņas filejas Rimi kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 6.99
       }
     ]
   },
