@@ -55,17 +55,6 @@
     ]
   },
   {
-    "name": "Skābais krējums Exporta 25% 360g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.39
-      }
-    ]
-  },
-  {
     "name": "Piens Rimi pasterizēts 2,5%, 1,5l",
     "unit": "",
     "category": "dairy",
@@ -73,6 +62,17 @@
       {
         "store": "rimi",
         "price": 1.17
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Exporta 25% 360g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.39
       }
     ]
   },
@@ -110,6 +110,17 @@
     ]
   },
   {
+    "name": "Skābais krējums Rimi 20% 400g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.69
+      }
+    ]
+  },
+  {
     "name": "Kausētais siers Dzintars klasiskais 200g",
     "unit": "",
     "category": "dairy",
@@ -128,17 +139,6 @@
       {
         "store": "rimi",
         "price": 1.81
-      }
-    ]
-  },
-  {
-    "name": "Skābais krējums Rimi 20% 400g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.69
       }
     ]
   },
@@ -286,17 +286,6 @@
     ]
   },
   {
-    "name": "Baltmaize Kungu sagriezta 400g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.45
-      }
-    ]
-  },
-  {
     "name": "Rudzu maize Rikas 6 gab. 330g",
     "unit": "",
     "category": "bread",
@@ -304,6 +293,17 @@
       {
         "store": "rimi",
         "price": 1.49
+      }
+    ]
+  },
+  {
+    "name": "Baltmaize Kungu sagriezta 400g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.45
       }
     ]
   },
@@ -484,17 +484,6 @@
     ]
   },
   {
-    "name": "Kokogles Marienburg 20l",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 8.99
-      }
-    ]
-  },
-  {
     "name": "BBQ sērkociņi ProFlame 50 gab.",
     "unit": "",
     "category": "vegetables",
@@ -502,6 +491,17 @@
       {
         "store": "rimi",
         "price": 1.29
+      }
+    ]
+  },
+  {
+    "name": "Kokogles Marienburg 20l",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 8.99
       }
     ]
   },
@@ -528,17 +528,6 @@
     ]
   },
   {
-    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
     "unit": "",
     "category": "vegetables",
@@ -546,6 +535,17 @@
       {
         "store": "rimi",
         "price": 5.29
+      }
+    ]
+  },
+  {
+    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
@@ -682,28 +682,6 @@
     ]
   },
   {
-    "name": "Narcises Agronom Unsurpassable AG26",
-    "unit": "2,27 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.27
-      }
-    ]
-  },
-  {
-    "name": "Ranunculus Agronom jauktas AG26",
-    "unit": "2,27 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.27
-      }
-    ]
-  },
-  {
     "name": "Tulpju sīpoli Aseja Sprinkle Dip AW26",
     "unit": "3,59 €/gab.",
     "category": "fruit",
@@ -726,13 +704,13 @@
     ]
   },
   {
-    "name": "Tulpju sīpoli Aseja Avant Garde AW26",
-    "unit": "3,59 €/gab.",
+    "name": "Ranunculus Agronom jauktas AG26",
+    "unit": "2,27 €/gab.",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 3.59
+        "price": 2.27
       }
     ]
   },
@@ -748,13 +726,13 @@
     ]
   },
   {
-    "name": "Tulpes Agronom Carola AG26",
-    "unit": "2,99 €/gab.",
+    "name": "Tulpju sīpoli Aseja Avant Garde AW26",
+    "unit": "3,59 €/gab.",
     "category": "fruit",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.99
+        "price": 3.59
       }
     ]
   },
@@ -781,6 +759,17 @@
     ]
   },
   {
+    "name": "Tulpes Agronom Carola AG26",
+    "unit": "2,99 €/gab.",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
+      }
+    ]
+  },
+  {
     "name": "Nazis Fiskars K40 SG26",
     "unit": "",
     "category": "fruit",
@@ -799,6 +788,17 @@
       {
         "store": "rimi",
         "price": 11.99
+      }
+    ]
+  },
+  {
+    "name": "D. Cimdi Kintar ar atstarojošām uzšuvēm",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.49
       }
     ]
   },
