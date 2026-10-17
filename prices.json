@@ -33,17 +33,6 @@
     ]
   },
   {
-    "name": "Skābais krējums Valmiera 20% 450g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.39
-      }
-    ]
-  },
-  {
     "name": "Piens Rimi pasterizēts 2,5%, 1,5l",
     "unit": "",
     "category": "dairy",
@@ -51,6 +40,17 @@
       {
         "store": "rimi",
         "price": 1.17
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Valmiera 20% 450g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.39
       }
     ]
   },
@@ -132,6 +132,17 @@
     ]
   },
   {
+    "name": "Olas Oluksne kūtī dētas A/LM Nr.2 10gab.",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.69
+      }
+    ]
+  },
+  {
     "name": "Graudainais biezpiens Rimi 160g",
     "unit": "",
     "category": "dairy",
@@ -150,17 +161,6 @@
       {
         "store": "rimi",
         "price": 1.49
-      }
-    ]
-  },
-  {
-    "name": "Olas Oluksne kūtī dētas A/LM Nr.2 10gab.",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.69
       }
     ]
   },
@@ -308,17 +308,6 @@
     ]
   },
   {
-    "name": "Rudzu maize Rikas 6 gab. 330g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.49
-      }
-    ]
-  },
-  {
     "name": "Maize melnā Latvijas graudu ar sēk. 340g",
     "unit": "",
     "category": "bread",
@@ -326,6 +315,17 @@
       {
         "store": "rimi",
         "price": 1.09
+      }
+    ]
+  },
+  {
+    "name": "Rudzu maize Rikas 6 gab. 330g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.49
       }
     ]
   },
@@ -539,17 +539,6 @@
     ]
   },
   {
-    "name": "Šķiltavas Cricket  BBQ Firepower",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "Kokogles Marienburg 20l",
     "unit": "",
     "category": "vegetables",
@@ -561,7 +550,7 @@
     ]
   },
   {
-    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
+    "name": "Šķiltavas Cricket  BBQ Firepower",
     "unit": "",
     "category": "vegetables",
     "prices": [
@@ -579,6 +568,17 @@
       {
         "store": "rimi",
         "price": 1.49
+      }
+    ]
+  },
+  {
+    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
@@ -711,17 +711,6 @@
       {
         "store": "rimi",
         "price": 0.99
-      }
-    ]
-  },
-  {
-    "name": "Tulpju sīpoli Aseja Avant Garde AW26",
-    "unit": "3,59 €/gab.",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 3.59
       }
     ]
   },
@@ -880,17 +869,6 @@
     ]
   },
   {
-    "name": "Fileja tītara gaļas šķēlēs 105g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.79
-      }
-    ]
-  },
-  {
     "name": "Cāļu stilbi Rimi 500g",
     "unit": "",
     "category": "drinks",
@@ -898,6 +876,17 @@
       {
         "store": "rimi",
         "price": 1.59
+      }
+    ]
+  },
+  {
+    "name": "Fileja tītara gaļas šķēlēs 105g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.79
       }
     ]
   },
@@ -957,17 +946,6 @@
     ]
   },
   {
-    "name": "Cāļu krūtiņas filejas Rimi kg",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 6.99
-      }
-    ]
-  },
-  {
     "name": "Cāļa stilbi Rimi bez locītavas 500g",
     "unit": "",
     "category": "drinks",
@@ -975,6 +953,17 @@
       {
         "store": "rimi",
         "price": 2.09
+      }
+    ]
+  },
+  {
+    "name": "Cāļu krūtiņas filejas Rimi kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 6.99
       }
     ]
   },
