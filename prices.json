@@ -253,17 +253,6 @@
     ]
   },
   {
-    "name": "Baltmaize Zemnieku sagriezta 500g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.25
-      }
-    ]
-  },
-  {
     "name": "Maize franču ar ķiploku pildījumu 160g",
     "unit": "",
     "category": "bread",
@@ -271,6 +260,17 @@
       {
         "store": "rimi",
         "price": 0.79
+      }
+    ]
+  },
+  {
+    "name": "Baltmaize Zemnieku sagriezta 500g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.25
       }
     ]
   },
@@ -396,17 +396,6 @@
     ]
   },
   {
-    "name": "Makaroni Dobele Nr.133 Fusilli 500g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.29
-      }
-    ]
-  },
-  {
     "name": "Kviešu milti Ekstra 2kg",
     "unit": "",
     "category": "meat",
@@ -414,6 +403,17 @@
       {
         "store": "rimi",
         "price": 2.29
+      }
+    ]
+  },
+  {
+    "name": "Makaroni Dobele Nr.133 Fusilli 500g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.29
       }
     ]
   },
@@ -451,17 +451,6 @@
     ]
   },
   {
-    "name": "Konservēta kukurūza Rimi saldā 340g/285g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.09
-      }
-    ]
-  },
-  {
     "name": "Tomātu mērce Spilva luksus 510g",
     "unit": "2,92 €/kg",
     "category": "meat",
@@ -473,13 +462,13 @@
     ]
   },
   {
-    "name": "Makaroni Dobele Nr.150 Cornetti Rigati 500g",
+    "name": "Konservēta kukurūza Rimi saldā 340g/285g",
     "unit": "",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.29
+        "price": 1.09
       }
     ]
   },
@@ -495,13 +484,13 @@
     ]
   },
   {
-    "name": "Grila iekurs, Fire & flame, balts 32gab.",
+    "name": "Makaroni Dobele Nr.150 Cornetti Rigati 500g",
     "unit": "",
-    "category": "vegetables",
+    "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.29
+        "price": 1.29
       }
     ]
   },
@@ -517,6 +506,28 @@
     ]
   },
   {
+    "name": "Grila iekurs, Fire & flame, balts 32gab.",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.29
+      }
+    ]
+  },
+  {
+    "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 5.29
+      }
+    ]
+  },
+  {
     "name": "BBQ sērkociņi ProFlame 50 gab.",
     "unit": "",
     "category": "vegetables",
@@ -524,17 +535,6 @@
       {
         "store": "rimi",
         "price": 1.29
-      }
-    ]
-  },
-  {
-    "name": "Aizdedzinātāji PROflame EXPERT 32gb",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.49
       }
     ]
   },
@@ -550,13 +550,13 @@
     ]
   },
   {
-    "name": "Kamīnmalka alksnis maisā 25dm3, +/-5dm3",
+    "name": "Aizdedzinātāji PROflame EXPERT 32gb",
     "unit": "",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 5.29
+        "price": 1.49
       }
     ]
   },
@@ -649,13 +649,13 @@
     ]
   },
   {
-    "name": "Grila aizdedzinātājs Proflame PB_L025",
+    "name": "Grila paplātes kom. 33x35cm 3 gab GR26",
     "unit": "",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.99
+        "price": 2.99
       }
     ]
   },
@@ -913,6 +913,17 @@
     ]
   },
   {
+    "name": "Cāļu krūtiņas filejas gabaliņi Rimi 400g",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 3.69
+      }
+    ]
+  },
+  {
     "name": "Cāļa krūtiņas mazā fileja kg",
     "unit": "",
     "category": "drinks",
@@ -942,17 +953,6 @@
       {
         "store": "rimi",
         "price": 1.29
-      }
-    ]
-  },
-  {
-    "name": "Surimi gaļa Viči snow crab 120g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.59
       }
     ]
   }
