@@ -55,17 +55,6 @@
     ]
   },
   {
-    "name": "Olas Rimi Iecavas kūtī dētas A/L No.2,10 gab.",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.19
-      }
-    ]
-  },
-  {
     "name": "Sviests Exporta 82,5% 200g",
     "unit": "",
     "category": "dairy",
@@ -99,17 +88,6 @@
     ]
   },
   {
-    "name": "Skābais krējums Rimi 20% 400g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.69
-      }
-    ]
-  },
-  {
     "name": "Graudainais biezpiens Rimi 160g",
     "unit": "",
     "category": "dairy",
@@ -117,6 +95,17 @@
       {
         "store": "rimi",
         "price": 0.79
+      }
+    ]
+  },
+  {
+    "name": "Skābais krējums Rimi 20% 400g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.69
       }
     ]
   },
@@ -161,6 +150,17 @@
       {
         "store": "rimi",
         "price": 2.58
+      }
+    ]
+  },
+  {
+    "name": "Grieķu jogurts Baltais bez piedevām 400g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.49
       }
     ]
   },
@@ -517,17 +517,6 @@
     ]
   },
   {
-    "name": "Aizdedzinātāji PROflame EXPERT 72pc",
-    "unit": "0,04 €/gab.",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.04
-      }
-    ]
-  },
-  {
     "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
     "unit": "3,49 €/gab.",
     "category": "vegetables",
@@ -535,6 +524,17 @@
       {
         "store": "rimi",
         "price": 3.49
+      }
+    ]
+  },
+  {
+    "name": "Aizdedzinātāji PROflame EXPERT 72pc",
+    "unit": "0,04 €/gab.",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 0.04
       }
     ]
   },
@@ -550,17 +550,6 @@
     ]
   },
   {
-    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "Grila iekurs, Fire & flame, balts 32gab.",
     "unit": "",
     "category": "vegetables",
@@ -568,6 +557,17 @@
       {
         "store": "rimi",
         "price": 2.29
+      }
+    ]
+  },
+  {
+    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
@@ -627,6 +627,17 @@
     ]
   },
   {
+    "name": "Lampu eļļa Cozy Home 1L",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.29
+      }
+    ]
+  },
+  {
     "name": "Uguns aizdedzināšanas līdzeklis Fire up 32gab",
     "unit": "0,04 €/gab.",
     "category": "vegetables",
@@ -638,24 +649,13 @@
     ]
   },
   {
-    "name": "Koka skaidas Flesh Cherry 500g GR24",
+    "name": "Grils 36cm",
     "unit": "",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 7.99
-      }
-    ]
-  },
-  {
-    "name": "Lampu eļļa Cozy Home 1L",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.29
+        "price": 29.99
       }
     ]
   },
@@ -726,17 +726,6 @@
     ]
   },
   {
-    "name": "D. Cimdi Kintar ar atstarojošām uzšuvēm",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 4.49
-      }
-    ]
-  },
-  {
     "name": "Cirvju un nažu asināmais Fiskars SG26",
     "unit": "",
     "category": "fruit",
@@ -744,6 +733,17 @@
       {
         "store": "rimi",
         "price": 29.99
+      }
+    ]
+  },
+  {
+    "name": "D. Cimdi Kintar ar atstarojošām uzšuvēm",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 4.49
       }
     ]
   },
@@ -792,17 +792,6 @@
     ]
   },
   {
-    "name": "Cāļu krūtiņas filejas Rimi kg",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 6.99
-      }
-    ]
-  },
-  {
     "name": "Cūkgaļas karbonāde bez kaula kg",
     "unit": "",
     "category": "drinks",
@@ -810,6 +799,17 @@
       {
         "store": "rimi",
         "price": 2.99
+      }
+    ]
+  },
+  {
+    "name": "Cāļu krūtiņas filejas Rimi kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 6.99
       }
     ]
   },
@@ -891,6 +891,17 @@
     ]
   },
   {
+    "name": "Cāļa krūtiņas mazā fileja kg",
+    "unit": "",
+    "category": "drinks",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 6.49
+      }
+    ]
+  },
+  {
     "name": "Cīsiņi Mini bez apvalka 450g",
     "unit": "",
     "category": "drinks",
@@ -898,17 +909,6 @@
       {
         "store": "rimi",
         "price": 1.99
-      }
-    ]
-  },
-  {
-    "name": "Liellopu aknu pastēte stikla burc. 180g",
-    "unit": "",
-    "category": "drinks",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.29
       }
     ]
   }
