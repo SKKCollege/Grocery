@@ -33,6 +33,17 @@
     ]
   },
   {
+    "name": "Olas Rimi Iecavas kūtī dētas A/L No.2,10 gab.",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.69
+      }
+    ]
+  },
+  {
     "name": "Skābais krējums Smiltene 15% 400g",
     "unit": "",
     "category": "dairy",
@@ -44,13 +55,13 @@
     ]
   },
   {
-    "name": "Olas Rimi Iecavas kūtī dētas A/L No.2,10 gab.",
+    "name": "Olas Zemnieku A/LM Nr.2 10gab.",
     "unit": "",
     "category": "dairy",
     "prices": [
       {
         "store": "rimi",
-        "price": 2.19
+        "price": 2.89
       }
     ]
   },
@@ -62,17 +73,6 @@
       {
         "store": "rimi",
         "price": 1.39
-      }
-    ]
-  },
-  {
-    "name": "Olas Zemnieku A/LM Nr.2 10gab.",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.89
       }
     ]
   },
@@ -121,17 +121,6 @@
     ]
   },
   {
-    "name": "Grieķu jogurts Valmiera bez laktozes 0% 350g",
-    "unit": "",
-    "category": "dairy",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.25
-      }
-    ]
-  },
-  {
     "name": "Kausētais siers Dzintars klasiskais 200g",
     "unit": "",
     "category": "dairy",
@@ -139,6 +128,17 @@
       {
         "store": "rimi",
         "price": 1.15
+      }
+    ]
+  },
+  {
+    "name": "Grieķu jogurts Valmiera bez laktozes 0% 350g",
+    "unit": "",
+    "category": "dairy",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.25
       }
     ]
   },
@@ -286,17 +286,6 @@
     ]
   },
   {
-    "name": "Tumšā sēklu maize Pļavas vizbulīte 300g",
-    "unit": "",
-    "category": "bread",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 0.89
-      }
-    ]
-  },
-  {
     "name": "Rudzu maize Zeltene sagriezta 800g",
     "unit": "",
     "category": "bread",
@@ -326,6 +315,17 @@
       {
         "store": "rimi",
         "price": 1.49
+      }
+    ]
+  },
+  {
+    "name": "Rudzu maize Īstenā bez rauga 730g",
+    "unit": "",
+    "category": "bread",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.65
       }
     ]
   },
@@ -429,17 +429,6 @@
     ]
   },
   {
-    "name": "Tomātu mērce Spilva luksus 510g",
-    "unit": "",
-    "category": "meat",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.75
-      }
-    ]
-  },
-  {
     "name": "Konservēti zaļie zirnīši Rimi 200g/140g",
     "unit": "4,43 €/kg",
     "category": "meat",
@@ -451,13 +440,13 @@
     ]
   },
   {
-    "name": "Konservēta kukurūza Rimi saldā 340g/285g",
+    "name": "Tomātu mērce Spilva luksus 510g",
     "unit": "",
     "category": "meat",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.09
+        "price": 2.75
       }
     ]
   },
@@ -469,6 +458,17 @@
       {
         "store": "rimi",
         "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Konservēta kukurūza Rimi saldā 340g/285g",
+    "unit": "",
+    "category": "meat",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.09
       }
     ]
   },
@@ -517,13 +517,13 @@
     ]
   },
   {
-    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
-    "unit": "3,49 €/gab.",
+    "name": "Šķiltavas PROflame EXPERT BBQ",
+    "unit": "1,19 €/gab.",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 3.49
+        "price": 1.19
       }
     ]
   },
@@ -539,13 +539,13 @@
     ]
   },
   {
-    "name": "Šķiltavas PROflame EXPERT BBQ",
-    "unit": "1,19 €/gab.",
+    "name": "Kamīnmalka bērzs maisā 25dm3, +/-5dm3",
+    "unit": "3,49 €/gab.",
     "category": "vegetables",
     "prices": [
       {
         "store": "rimi",
-        "price": 1.19
+        "price": 3.49
       }
     ]
   },
@@ -561,17 +561,6 @@
     ]
   },
   {
-    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.99
-      }
-    ]
-  },
-  {
     "name": "BBQ sērkociņi ProFlame 50 gab.",
     "unit": "0,02 €/gab.",
     "category": "vegetables",
@@ -579,6 +568,17 @@
       {
         "store": "rimi",
         "price": 0.02
+      }
+    ]
+  },
+  {
+    "name": "Aizd.šķidr.Good Cook 1L uz spirta bāzes",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.99
       }
     ]
   },
@@ -605,17 +605,6 @@
     ]
   },
   {
-    "name": "BBQ sērkociņi Rimi 45 gab.",
-    "unit": "",
-    "category": "vegetables",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 1.29
-      }
-    ]
-  },
-  {
     "name": "Grila aizdedzinātājs Proflame PB_L025",
     "unit": "1,19 €/gab.",
     "category": "vegetables",
@@ -623,6 +612,17 @@
       {
         "store": "rimi",
         "price": 1.19
+      }
+    ]
+  },
+  {
+    "name": "BBQ sērkociņi Rimi 45 gab.",
+    "unit": "",
+    "category": "vegetables",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 1.29
       }
     ]
   },
@@ -671,17 +671,6 @@
     ]
   },
   {
-    "name": "Komposts Juknevičiaus Kompostas 5l",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 2.59
-      }
-    ]
-  },
-  {
     "name": "Darba cimdi Kintar adīti ar gum. punktējumu",
     "unit": "",
     "category": "fruit",
@@ -689,6 +678,17 @@
       {
         "store": "rimi",
         "price": 0.99
+      }
+    ]
+  },
+  {
+    "name": "Komposts Juknevičiaus Kompostas 5l",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 2.59
       }
     ]
   },
@@ -715,17 +715,6 @@
     ]
   },
   {
-    "name": "Lāpstiņa Fiskars SG26",
-    "unit": "",
-    "category": "fruit",
-    "prices": [
-      {
-        "store": "rimi",
-        "price": 11.99
-      }
-    ]
-  },
-  {
     "name": "Cirvju un nažu asināmais Fiskars SG26",
     "unit": "",
     "category": "fruit",
@@ -733,6 +722,17 @@
       {
         "store": "rimi",
         "price": 29.99
+      }
+    ]
+  },
+  {
+    "name": "Lāpstiņa Fiskars SG26",
+    "unit": "",
+    "category": "fruit",
+    "prices": [
+      {
+        "store": "rimi",
+        "price": 11.99
       }
     ]
   },
